@@ -1,0 +1,328 @@
+-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="marksheet.css">
+    <title>Document</title>
+    
+    <div class="main">
+        <h1>MARKSHEET</h1>
+        <div class="name">
+        Name :
+        <input type="text">
+        Roll no:
+        <input type="number">
+        Father's name:
+        <input type="text">
+    
+        </div>
+     
+    <div  class="first">
+        <table>
+            <th>
+        <tr class="sub">
+            <td>Subject name</td>
+            <td> Obtain marks</td>
+            <td>Total marks </td>
+            <td>Subject grade </td>
+            <td>Remarks</td>
+        </tr>
+       </th>
+        <tr class="mfcs">
+            <td>MFCS</td>
+            <td><script>
+                let a =  parseInt(prompt("your math marks"))
+            document.write(a)
+            </script></td>
+            <td>100</td>
+            <td id="grade1"> </td>
+            <td id = "remark1"></td>
+        </tr>
+
+        <tr class="ssad">
+            <td>SSAD</td>
+            <td>
+                <script>
+                    let b =  parseInt(prompt("your SSAD marks"))
+                document.write(b)
+                </script>
+            </td>
+            <td> 100</td>
+            <td id="grade2"></td>
+            <td id ="remark2"></td>
+        </tr>
+
+        <tr class="loc">
+            <td>LOC</td>
+            <td>
+                <script>
+                   let c = parseInt(prompt("your loc marks "))
+                   document.write(c)
+                </script>
+            </td>
+            <td> 100</td>
+            <td id="grade3"></td>
+            <td id ="remark3"></td>
+        </tr>
+
+        <tr class="Programming">
+            <td>C Programming</td>
+            <td><script>
+                let d = parseInt(prompt("your loc marks "))
+                document.write(d)
+             </script></td>
+            <td> 100</td>
+            <td id="grade4"></td>
+            <td id = "remark4"></td>
+        </tr>
+
+        <tr class="apti">
+            <td>Aptitude</td>
+            <td>
+                <script>
+                    let e = parseInt(prompt("your aptitude number"))
+                    document.write(e)
+                </script>
+            </td>
+            <td> 100</td>
+            <td id="grade5"></td>
+            <td id ="remark5"></td>
+        </tr>
+        <tr class="total">
+        <td>Total</td>
+        <td><script>
+        let total = a+b+c+d+c
+        document.write(total)</script></td>
+        <td>500</td>
+        <td id= "grade6"></td>
+        <td id="remark6"></td>
+    </tr>
+    </table>
+    </div>
+</div>
+</head>
+<body>
+    <script>
+
+        if( a>=90)
+        {
+            document.getElementById('grade1').innerHTML="A+" ;}
+        else if (a>=70)
+        {
+            document.getElementById('grade1').innerHTML="A";}
+         else if (a>=50)
+        {
+            document.getElementById('grade1').innerHTML="B";}
+        
+            else if (a>=33)
+        {
+            document.getElementById('grade1').innerHTML="C";}
+          else{
+            document.getElementById('grade1').innerHTML="D";}
+
+        
+            if( b>=90)
+        {
+            document.getElementById('grade2').innerHTML="A+" ;}
+        else if (b>=70)
+        {
+            document.getElementById('grade2').innerHTML="A";}
+         else if (b>=50)
+        {
+            document.getElementById('grade2').innerHTML="B";}
+        
+            else if (b>=33)
+        {
+            document.getElementById('grade2').innerHTML="C";}
+          else{
+            document.getElementById('grade2').innerHTML="D";}
+          
+        
+
+            if( c>=90)
+        {
+            document.getElementById('grade3').innerHTML="A+" ;}
+        else if (c>=70)
+        {
+            document.getElementById('grade3').innerHTML="A";}
+         else if (c>=50)
+        {
+            document.getElementById('grade3').innerHTML="B";}
+        
+            else if (c>=33)
+        {
+            document.getElementById('grade3').innerHTML="C";}
+          else{
+            document.getElementById('grade3').innerHTML="D";}
+
+
+            if( d>=90)
+        {
+            document.getElementById('grade4').innerHTML="A+" ;}
+        else if (d>=70)
+        {
+            document.getElementById('grade4').innerHTML="A";}
+         else if (d>=50)
+        {
+            document.getElementById('grade4').innerHTML="B";}
+        
+            else if (d>=33)
+        {
+            document.getElementById('grade4').innerHTML="C";}
+          else{
+            document.getElementById('grade4').innerHTML="D";}
+
+
+
+           if( d>=90)
+        {
+            document.getElementById('grade5').innerHTML="A+" ;}
+        else if (d>=70)
+        {
+            document.getElementById('grade5').innerHTML="A";}
+         else if (d>=50)
+        {
+            document.getElementById('grade5').innerHTML="B";}
+        
+            else if (d>=33)
+        {
+            document.getElementById('grade5').innerHTML="C";}
+          else{ 
+            document.getElementById('grade5').innerHTML="D";}
+
+
+
+ if( total>=450)
+        {
+            document.getElementById('grade6').innerHTML="A+" ;}
+        else if (total>=400)
+        {
+            document.getElementById('grade6').innerHTML="A";}
+         else if (total>=350)
+        {
+            document.getElementById('grade6').innerHTML="B";}
+        
+            else if (total>=250)
+        {
+            document.getElementById('grade6').innerHTML="C";}
+          else{
+            document.getElementById('grade6').innerHTML="D";}
+
+
+                    //   Remark
+            
+           
+            
+                    if( a>=90)
+        {
+            document.getElementById('remark1').innerHTML="Excellent" ;}
+        else if (a>=70)
+        {
+            document.getElementById('remark1').innerHTML="very Good ";}
+         else if (a>=50)
+        {
+            document.getElementById('remark1').innerHTML="Good";}
+        
+            else if (a>=33)
+        {
+            document.getElementById('remark1').innerHTML="Average";}
+          else{
+            document.getElementById('remark1').innerHTML="Fail";}
+
+
+            if( b>=90)
+        {
+            document.getElementById('remark2').innerHTML="Excellent" ;}
+        else if (b>=70)
+        {
+            document.getElementById('remark2').innerHTML="very Good ";}
+         else if (b>=50)
+        {
+            document.getElementById('remark2').innerHTML="Good";}
+        
+            else if (b>=33)
+        {
+            document.getElementById('remark2').innerHTML="Average";}
+          else{
+            document.getElementById('remark2').innerHTML="Fail";}
+
+
+
+            if( c>=90)
+        {
+            document.getElementById('remark3').innerHTML="Excellent" ;}
+        else if (c>=70)
+        {
+            document.getElementById('remark3').innerHTML="very Good ";}
+         else if (c>=50)
+        {
+            document.getElementById('remark3').innerHTML="Good";}
+        
+            else if (c>=33)
+        {
+            document.getElementById('remark3').innerHTML="Average";}
+          else{
+            document.getElementById('remark3').innerHTML="Fail";}
+
+
+
+            if( d>=90)
+        {
+            document.getElementById('remark4').innerHTML="Excellent" ;}
+        else if (d>=70)
+        {
+            document.getElementById('remark4').innerHTML="very Good ";}
+         else if (d>=50)
+        {
+            document.getElementById('remark4').innerHTML="Good";}
+        
+            else if (d>=33)
+        {
+            document.getElementById('remark4').innerHTML="Average";}
+          else{
+            document.getElementById('remark4').innerHTML="Fail";}
+
+
+
+            if( e>=90)
+        {
+            document.getElementById('remark5').innerHTML="Excellent" ;}
+        else if (e>=70)
+        {
+            document.getElementById('remark5').innerHTML="very Good ";}
+         else if (e>=50)
+        {
+            document.getElementById('remark5').innerHTML="Good";}
+        
+            else if (e>=33)
+        {
+            document.getElementById('remark5').innerHTML="Average";
+        }
+          else{
+            document.getElementById('remark5').innerHTML="Bad";
+        }
+
+
+
+            if (total /500*100>=60)
+            {
+document.getElementById('remark6').innerHTML="First";
+            }
+            else if (total /500*100>=45)
+            {
+                document.getElementById('remark6').innerHTML="Second";  
+            }
+            else if (total /500*100>=33)
+            {
+                document.getElementById('remark6').innerHTML="Third";  
+            }
+            else {
+                document.getElementById('remark6').innerHTML="Fail";
+            }
+    </script>
+    
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+.main{
+     background-color: rgb(125, 165, 181); */
+     
+    height: 400px;
+    width: 400px;
+    border: solid black;
+    border-radius: 14px;
+    align-self: center;
+}
+.first{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 250px;
+}
+    
+.main h1{
+    margin-left: 40%;
+    font-family: bradley hand;
+    font-size: xx-large;
+
+}
+.name{
+    padding: 10px;
+    margin-left:10%;
+    font-size: larger;
+
+}
+.button button{
+   margin-left: 50%;
+   height: 40px;
+   width: 120px;
+   margin-top: 8%;
+   
+}
+body{
+    /* background-color: rgb(35, 138, 138); */
+    background-image: url(login\ last.jpg);
+   height: 100%;
+   width: 100%;
+}

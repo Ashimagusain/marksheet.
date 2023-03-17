@@ -1,0 +1,41 @@
+
+table{
+    width:100%;
+    background-color: rgb(190, 239, 239);
+}
+.sub  {
+    border: solid black;
+
+}
+.first{
+    border: solid black;
+}
+.first table td{
+    border:solid black;
+}
+/* .main{
+    height: 700px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blanchedalmond;
+
+} */
+.main table{
+    
+    height: 700px;
+    width: 100%;
+}
+.main h1{
+    align-content: center;
+    margin-left: 50%;
+}
+.main tr td{
+    text-align: center;
+}
+.name input {
+    padding: 10px 10px;
+    margin-bottom: 20px;
+
+}
